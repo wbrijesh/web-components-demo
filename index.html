@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Web Component Example</title>
+        <link rel="stylesheet" href="compiled.css" />
+        <script src="web-component.js"></script>
+        <script src="my-component.js" defer></script>
+    </head>
+    <body>
+        <div class="tw-container tw-mx-auto">
+            <p class="tw-bg-pink-500">hello</p>
+            <my-component
+                title="Welcome"
+                content="This is a custom web component"
+            ></my-component>
+            <my-component
+                title="Another Example"
+                content="This is reusable"
+            ></my-component>
+        </div>
+    </body>
+</html>
